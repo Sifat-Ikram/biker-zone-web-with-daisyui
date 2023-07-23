@@ -28,6 +28,10 @@
     </script>
     <!-- custom style -->
     <style>
+        body{
+            margin: 0px 0px;
+            padding: 0px 0px;
+        }
         .font-poppins {
             font-family: 'Poppins', sans-serif;
         }
@@ -78,10 +82,10 @@
         <!-- banner -->
         <div class="carousel w-full bike-primary-bg h-[550px] gap-5">
             <!-- slide 1 -->
-            <div id="slide1" class="carousel-item relative w-full">
-                <div class="flex p-24 max-md:flex-col max-sm:text-center">
+            <div id="slide1" class="carousel-item relative w-full bg-[cyan]">
+                <div class="flex p-24 max-md:flex-col max-md:text-center">
                     <div class="space-y-7 flex-1">
-                        <h1 class="text-6xl font-bold text-[#000]">Ride-on R15 V4
+                        <h1 class="text-6xl max-md:text-xl font-bold text-[#000]">Ride-on R15 V4
                             <br>
                             with Smile
                         </h1>
@@ -97,10 +101,11 @@
                     <a href="#slide2" class="btn btn-circle">❯</a>
                 </div>
             </div>
-            <div id="slide2" class="carousel-item relative w-full">
-                <div class="flex p-24 max-md:flex-col max-sm:text-center">
+            <!-- slide 2 -->
+            <div id="slide2" class="carousel-item relative w-full bg-[#a3eb51]">
+                <div class="flex p-24 max-md:flex-col max-md:text-center">
                     <div class="space-y-7 flex-1">
-                        <h1 class="text-6xl font-bold text-[#000]">Ride-on R15 V4
+                        <h1 class="text-6xl max-md:text-xl font-bold text-[#000]">Ride-on R15 V4
                             <br>
                             with Smile
                         </h1>
@@ -116,10 +121,11 @@
                     <a href="#slide3" class="btn btn-circle">❯</a>
                 </div>
             </div>
-            <div id="slide3" class="carousel-item relative w-full">
-                <div class="flex p-24 max-md:flex-col max-sm:text-center">
+            <!-- slide 3 -->
+            <div id="slide3" class="carousel-item relative w-full bg-[#4680eb]">
+                <div class="flex p-24 max-md:flex-col max-md:text-center">
                     <div class="space-y-7 flex-1">
-                        <h1 class="text-6xl font-bold text-[#000]">Ride-on R15 V4
+                        <h1 class="text-6xl max-md:text-xl font-bold text-[#000]">Ride-on R15 V4
                             <br>
                             with Smile
                         </h1>
@@ -135,10 +141,11 @@
                     <a href="#slide4" class="btn btn-circle">❯</a>
                 </div>
             </div>
-            <div id="slide4" class="carousel-item relative w-full">
-                <div class="flex p-24 max-md:flex-col max-sm:text-center">
+            <!-- slide 4 -->
+            <div id="slide4" class="carousel-item relative w-full bg-[#cd58eb]">
+                <div class="flex p-24 max-md:flex-col max-md:text-center">
                     <div class="space-y-7 flex-1">
-                        <h1 class="text-6xl font-bold text-[#000]">Ride-on R15 V4
+                        <h1 class="text-6xl max-md:text-xl font-bold text-[#000]">Ride-on R15 V4
                             <br>
                             with Smile
                         </h1>
@@ -157,7 +164,67 @@
         </div>
     </header>
     <main class="md:container md:mx-auto">
-
+        <!-- featured bike -->
+        <section class="md:mt-16">
+            <h1 class="font-semibold text-5xl text-center ">Fetured Bikes In This Year</h1>
+            <div class="flex justify-evenly p-24 max-md:justify-center max-md:space-y-4 max-md:flex-col max-md:text-center">
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="/images/others/feature-bike.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                </div>
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="/images/others/feature-bike.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                </div>
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="/images/others/feature-bike.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <!-- latest bike -->
+        <section class="mt-16">
+            <h1 class="font-semibold text-5xl text-center">latest News</h1>
+            <div class="flex mt-5 justify-around max-md:justify-center max-md:space-y-4 max-md:flex-col max-md:text-center max-sm:justify-center max-sm:space-y-6 max-sm:flex-col max-sm:text-center">
+                <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                    <figure><img src="/images/others/latest1.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title text-3xl font-semibold">Ducati XDIAVEL S-73</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn bg-bike-primary">Read More</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                    <figure><img src="/images/others/latest2.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title text-3xl font-semibold">Ducati XDIAVEL S-73</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn bg-bike-primary">Read More</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                    <figure><img src="/images/others/latest3.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title text-3xl font-semibold">Ducati XDIAVEL S-73</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn bg-bike-primary">Read More</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- client saying -->
+        <section>
+            
+        </section>
     </main>
     <footer>
 
